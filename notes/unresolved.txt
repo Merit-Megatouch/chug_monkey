@@ -7,20 +7,8 @@ TwDrvFifo_ioctl | libtouchscreen.so
 TwDrvFifo_open | libtouchscreen.so
 TwDrvFifo_read | libtouchscreen.so
 TwDrvFifo_write | libtouchscreen.so
-debug_check_address(void*) | libmerit2d.so
-debug_check_address(void*) | libmeritbasegame.so
-Heartbeat_WaitForAll(unsigned long, bool) | libmeritbasegame.so
 NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | libmeritbasegame.so
-MyMeritManager::GetGameLevel(xml_gameinfo::GameIds) | libmeritbasegame.so
-MyMeritManager::SetGameLevel(xml_gameinfo::GameIds, int) | libmeritbasegame.so
-MyMeritManager::Instance() | libmeritbasegame.so
 USBIO::JoystickFound() | libmeritbasegame.so
-Profiler::DelInstance() | chug_monkey.so
-Profiler::Stop(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | chug_monkey.so
-Profiler::Start(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | chug_monkey.so
 SoundOGG::PlayOGG(char*, unsigned short, int) | chug_monkey.so
 SoundOGG::StopOGG(SoundOGG*) | chug_monkey.so
 SoundOGG::PauseOGG(SoundOGG*, bool) | chug_monkey.so
-MyMeritManager::PlayerLoaded() const | libmeritbasegame.so
-MyMeritManager::Name() const | libmeritbasegame.so
-voice_stop | chug_monkey.so
